@@ -76,6 +76,6 @@ int main(void) {
 		if (HAL_UART_Receive(&huart1, input, 2, 1000) == HAL_OK) {
 		// Process the received data
     		Process_UART_Data(input);
-    	}
-  	}
+		}
+	}
 }
